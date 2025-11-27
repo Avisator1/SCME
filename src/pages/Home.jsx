@@ -188,7 +188,7 @@ export default function Home() {
               </g>
             </svg>
             <p className="text-gray-600 regular text-lg text-center">
-              Your cart is currently empty
+              your cart is currently empty
             </p>
           </div>
         </div>
