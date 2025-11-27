@@ -33,6 +33,7 @@ export default function Home() {
             {/* LEFT — MENU */}
             <button 
               aria-label="Menu"
+              className='cursor-pointer'
               onClick={toggleSidebar}
             >
               <svg
@@ -54,6 +55,7 @@ export default function Home() {
             <button 
               aria-label="Cart"
               onClick={toggleCart}
+              hover="cursor-pointer"
             >
               <svg
                 aria-hidden="true"
