@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Times';
+  src: url('./assets/fonts/timesregular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Times';
+  src: url('./assets/fonts/timesbold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.regular {
+  font-family: 'Times', 'Times New Roman', serif;
+  font-weight: normal;
+}
+
+.times-bold {
+  font-family: 'Times', 'Times New Roman', serif;
+  font-weight: bold;
+}
