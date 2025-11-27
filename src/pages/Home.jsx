@@ -55,8 +55,7 @@ export default function Home() {
             <button 
               aria-label="Cart"
               onClick={toggleCart}
-              hover="cursor-pointer"
-            >
+              className='cursor-pointer'            >
               <svg
                 aria-hidden="true"
                 focusable="false"
